@@ -5,10 +5,10 @@ jobs:
 build:
 runs-on: ubuntu-latest
 container:
-image:postman/newman
+image: postman/newman
 steps:
 -name: Checkout
 users: actions/checkout@v2
 
--name: Run APU tests
+-name: Run API tests
 run: mewman run RestfulBookerBVT.postman_collection.json -e Production.postman_enviroment.json
