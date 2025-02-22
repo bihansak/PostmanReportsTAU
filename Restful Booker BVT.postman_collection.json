@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d9bdb129-f801-4996-8832-4e6c9e25a4e1",
+		"_postman_id": "09b7f9a3-8c22-421b-b8c2-de443423f173",
 		"name": "Restful Booker BVT",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "28877146"
@@ -1142,7 +1142,7 @@
 							"    pm.response.to.be.success;",
 							"});",
 							"",
-							"postman.setNextRequest(null);"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
